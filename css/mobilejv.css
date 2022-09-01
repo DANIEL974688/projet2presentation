@@ -1,0 +1,59 @@
+body{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color:#C5D932 ; 
+}
+img
+{
+	min-width: 50%;
+	height:auto;
+}
+
+header{
+text-align: center;
+font-size:20px;
+}
+.conteneur
+{
+	display: flex;
+        flex-wrap: wrap;
+}
+.texte
+{
+	flex-direction: column;
+        display:flex;
+}
+.image
+{
+	flex-direction: column;
+        display:flex;
+}
+
+
+
+@media only screen and (min-width: 480px){
+header{
+		font-size:45px;
+		}
+img
+		{
+			min-width: 50%;
+			height:auto;
+		}
+body {
+	background-color: #88A649;
+		}
+		.texte , .image
+		{
+			width:45%;
+			margin:10px;
+			flex-direction: column-reverse;
+		
+		}
+}
+
+
+

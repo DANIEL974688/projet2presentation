@@ -1,0 +1,91 @@
+/*Présentation générale*/
+/*1 Pour mobile*/
+/*2 Pour PC desktop*/
+
+/* 1 Pour mobile*/
+ 
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Baloo 2', cursive;
+    background-image: url(https://cdn.discordapp.com/attachments/808206280212217908/833974167249879070/csm_la-reunion_02_d517d61658.jpg) ;
+    background-repeat: repeat;
+    background-position: auto;
+}
+header
+{
+background-color:#ADC5D9 ;
+text-align: center;
+}
+.banner-text {
+    width: 100%;
+    text-align: center;
+    margin:20px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color:black;
+    }
+
+.banner-text ul li:hover {
+    cursor: pointer;
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    color: #FFCC66;
+    margin:20px;
+
+}
+.btn{
+    max-width: 25%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    
+header
+{
+    margin:20px;
+}
+.banner-text {
+    margin:20px;
+    padding:20px;
+}
+
+body
+{
+background-position: center;
+margin:20px;
+
+}
+
+}

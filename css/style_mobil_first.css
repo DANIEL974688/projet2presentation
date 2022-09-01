@@ -1,0 +1,103 @@
+/* STYLE pour mobil first */
+
+body{
+	position: relative;
+	font-family: Arial;
+	background-color: #EACAD7;
+	margin: 5px;
+	padding: 5px;
+	}
+
+img{
+	width: 100%;
+	height: auto;
+	}
+
+h1 {
+	color:#EB312E;  
+	}
+
+h2 {
+	text-align: center;
+	color: green;
+	}
+
+/*style personalisé*/
+
+.titre{
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	
+	}	
+.img-salazie{
+	max-width: 97%;
+	padding: 20px;
+  	margin: 10px;
+	border: 5px;
+	border-radius: 5px;
+	}
+
+.container{
+	width: 100%;
+	text-align: justify;
+  	display: flex;
+  	flex-wrap: wrap;
+    margin:10px;
+	}
+
+.text{
+
+	font-size: 14px;
+	width: 40%;
+	color: blue;
+ 	flex-direction: column;
+ 	display: flex;
+    margin:20px;
+    padding:10px;
+ 	
+	}
+.img-salazie-c{
+	flex-direction: column;
+ 	display: flex;
+ 	max-width: 50%;
+ 	max-height: auto;
+ 	border: 5px;
+	border-radius: 5px;
+
+	}
+
+
+
+/*Partie Desktop*/
+
+@media only screen and (min-width: 600px){
+
+
+
+body {
+background-color: #D1DFF8;
+
+	}
+
+.text{
+
+color: red;
+}
+
+.container{
+	flex-wrap: nowrap;
+
+}
+.img-salazie-c{
+	border: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	}
+
+
+
+}
+
+
